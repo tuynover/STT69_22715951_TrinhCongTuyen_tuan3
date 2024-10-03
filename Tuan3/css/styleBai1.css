@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#div_big{
+    border: 2px solid;
+    width: 1100px;
+    height: 600px;
+    background-color: skyblue;
+}
+
+header{
+    border-bottom: 5px white dotted;
+    height: 40px;
+    width: 1100px;
+}
+
+section{
+    border: 1px;
+    width: 1100px;
+    height: 500px;
+    margin-top: 5px;
+}
+
+#art_1{
+    border: 1px ;
+    width: 550px;
+    height: 450px;
+    float: left;
+    margin-top: -5px;
+}
+
+#art_2{
+    border: 1px;
+    width: 550px;
+    height: 450px;
+    float: right;
+    margin-top: -5px;
+}
+
+footer{
+    border-top: 4px white  dotted;
+    width: 1100px;
+    height: 60px;
+    clear: both;
+    margin-top: -50px;
+    color: white;
+    text-align: center;
+}
+
+.ul_header li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin-left: -20px;
+}
+
+.ul_header li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+}
+
+.ul_header li a:hover{
+    color:red;
+}#sky{
+    margin-left: 300px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow:  10px 5px 30px rgb(53, 38, 193);
+}
+table{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.table_sec{
+    margin-top: 2px;
+    width: 200px;
+    border-radius: 5px ;
+}
+label{
+    color: white;
+}
+.div_p{
+    margin-left: 10px;
+}button{
+    margin-top:0%;
+    border: 2px rgb(4, 4, 193) dashed;
+    border-radius: 5px;
+}
+select{
+    margin-top: 5px;
+    border-radius: 5px;
+}
